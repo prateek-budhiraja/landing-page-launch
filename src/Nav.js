@@ -7,13 +7,13 @@ const Nav = () => {
   return (
     <Navbar className="nav">
       <NavbarBrand className="brand text-dark" href="#">
-        Appleeeeee
+        Appleeeee
       </NavbarBrand>
       <NavbarText>
-        <NavLink className="socials text-dark">
+        <NavLink href="#" className="socials text-dark">
           <BsInstagram size={"1.5rem"} />
         </NavLink>
-        <NavLink className="socials text-dark">
+        <NavLink href="#" className="socials text-dark">
           <BsTwitter size={"1.5rem"} />
         </NavLink>
       </NavbarText>

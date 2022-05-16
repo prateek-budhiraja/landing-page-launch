@@ -4,12 +4,16 @@ import "./App.css";
 import { Container } from "reactstrap";
 import Nav from "./Nav";
 import HeroSection from "./HeroSection";
+import Footer from "./Footer";
 
 function App() {
   return (
     <Container fluid className="App">
-      <Nav />
-      <HeroSection />
+      <Container className="top">
+        <Nav />
+        <HeroSection />
+      </Container>
+      <Footer />
     </Container>
   );
 }

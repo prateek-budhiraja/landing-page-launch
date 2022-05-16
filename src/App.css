@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Ubuntu&display=swap');
 
-html > body {
-    background-color: #CAD5E2;
-    font-family: 'Montserrat', sans-serif;
-    
+.App {
+    background-color: #ead5dc;
+    display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-between;
 }
+
 
 .nav {
     padding: 2rem;
 }
 
 .socials {
+    cursor: pointer;
     float: right;
 }
 
@@ -19,40 +24,22 @@ html > body {
     font-size: 2rem;
 }
 
-.content {
-    margin-top: 2rem;
-    margin-left: 5rem;
-}
-
-img {
-    margin: 2rem;
-    object-fit: cover;
+.apple-image {
     width: 100%;
-    max-height: 50%;
+    max-width: 800px;
+    height: auto; 
 }
 
-.content > h1 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+h1 {
+    font-weight: bold;
 }
 
-.searchbox{
-    padding : 3rem;
+h4 {
+    line-height: 1.6;
 }
 
-.contact{
-    margin-top:20px;
-}
-
-h3{
-    margin-bottom: 2rem;
-}
-
-.imgcol{
-height: inherit;
-
-}
-
-.textcol{
-
+.form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
