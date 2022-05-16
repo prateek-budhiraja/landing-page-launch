@@ -11,7 +11,8 @@ const HeroSection = () => {
       <Col className="p-4 col-12 col-sm-12 col-md-6 col-lg-6">
         <h1 className="mb-5">Out of league.</h1>
         <h4>
-          I can't think about my live without appleeeee. You too?
+          I don't even want to think about what life would be like without
+          appleeeee. You too?
           <br /> <br />
           Signup with your email to never get any appleeeee photos to make your
           day bright! ☀️
