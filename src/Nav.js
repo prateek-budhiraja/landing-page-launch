@@ -11,10 +11,10 @@ const Nav = () => {
       </NavbarBrand>
       <NavbarText>
         <NavLink href="#" className="socials text-dark">
-          <BsInstagram size={"1.5rem"} />
+          <BsInstagram size={"2vh"} />
         </NavLink>
         <NavLink href="#" className="socials text-dark">
-          <BsTwitter size={"1.5rem"} />
+          <BsTwitter size={"2vh"} />
         </NavLink>
       </NavbarText>
     </Navbar>

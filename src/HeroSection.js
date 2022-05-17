@@ -5,13 +5,13 @@ const HeroSection = () => {
   const [email, setEmail] = useState("");
   return (
     <Row>
-      <Col className="p-4 col-12 col-sm-12 col-md-6 col-lg-6">
+      <Col className="p-4 col-12 col-sm-12 col-md-12 col-lg-6">
         <img
           className="apple-image"
           src={process.env.PUBLIC_URL + "/images/apple.jpg"}
         />
       </Col>
-      <Col className="p-4 col-12 col-sm-12 col-md-6 col-lg-6">
+      <Col className="p-4 col-12 col-sm-12 col-md-12 col-lg-6">
         <h1 className="mb-5">Out of league.</h1>
         <h4>
           I don't even want to think about what life would be like without
